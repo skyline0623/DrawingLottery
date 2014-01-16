@@ -1,0 +1,76 @@
+.main{
+	width: 80%;
+	float: right;
+	padding: 20px 20px;
+	height: auto;
+	min-height: 1000px;
+}
+.navbar{
+	width: 15%;
+	float: left;
+	position: fixed;
+	height: auto;
+	min-height: 300px;
+	border:1px solid #EAEAEA;
+	border-radius: 5px;
+
+}
+body{
+	background-color:#f4f4f4;
+	padding-bottom: 500px;
+}
+body>.page{
+	float:right;
+	width: 80%;
+}
+.slide-title{
+	font-size:50px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.title{
+	font-size: 60px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	margin: 200px 35%;
+}
+.page-content{
+	width: 100%;
+	height: auto;
+	min-height: 600px;
+	padding: 50px 0px;
+}
+.page-img{
+	float: left;
+	width: 60%;
+	height: auto;
+}
+.page-icontent{
+	font-size: 40px;
+	float: left;
+	margin-left: 5%;
+	padding: 150px 5px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.drawed-card{
+	font-size: 30px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	cursor: not-allowed;
+	background-color: lightblue;
+	display: inline-block;
+	height: 200px;
+	margin: 10px 3%;
+	width: 92%;
+}
+.card-img{
+	margin-top: 10px;
+	height: 90px;
+	margin-left: 10px;
+	width: auto;
+}
+.draw-card{
+	width: 92%;
+	margin: 10px 3%;
+	display: inline-block;
+	height: 200px;
+	cursor: pointer;
+	background-color: #FF6666;
+}
